@@ -9,4 +9,4 @@ entry_points:
   validate:
     parameters:
       data_file: path
-    command: "python validate.py {data_file}"
+    command: "python model.py {data_file}"
