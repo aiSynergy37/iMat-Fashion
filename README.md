@@ -1,4 +1,6 @@
 Dataset Details
+
+
 Apparel instance segmentations include 27 main apparel objects (jackets, dresses, skirts, etc) and 19 apparel parts (sleeves, collars, etc). A total of 92 fine-grained attributes was annotated by expert for main apparel objects.
 In this dataset, you are provided a large number of images and corresponding fashion/apparel segmentations. Images are named with a unique ImageId. You must segment and classify the images in the test set.
 
