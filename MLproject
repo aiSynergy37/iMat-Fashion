@@ -13,3 +13,4 @@ entry_points:
     parameters:
       data_file: path
     command: "python model.py {data_file}"
+    
