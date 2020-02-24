@@ -16,3 +16,4 @@ if __name__ == "__main__":
         f.write("Fan of Python")
     mlflow.log_metric("mutiplication",c)
     mlflow.log_artifact(cwd+'/mlflowfile.txt')
+    
