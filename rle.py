@@ -4,6 +4,7 @@ import numpy as np
 from tqdm import tqdm
 
 
+
 def kaggle_rle_encode(mask):
     pixels = mask.T.flatten()
     pixels = np.concatenate([[0], pixels, [0]])
