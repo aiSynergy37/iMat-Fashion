@@ -60,6 +60,7 @@ def draw_masks(img, masks, colors, classes):
     return img
 
 
+
 def get_gt_masks(annotation):
     gt_masks = [[] for _ in range(N_CLASSES)]
     for mask, label in zip(annotation['ann']['masks'], annotation['ann']['labels']):
