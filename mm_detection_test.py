@@ -9,6 +9,7 @@ import pandas as pd
 from tqdm import tqdm
 
 
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--annotation', type=str)
